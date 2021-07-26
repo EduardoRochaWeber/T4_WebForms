@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    class Categoria
+    public class Categoria : BaseModel
     {
+        public Categoria()
+        {
+
+        }
     }
 }

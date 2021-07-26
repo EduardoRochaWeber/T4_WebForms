@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    class Produto
+    public class Produto : BaseModel
     {
+        public decimal Valor { get; set; }
+        public Produto()
+        {
+
+        }
     }
 }
